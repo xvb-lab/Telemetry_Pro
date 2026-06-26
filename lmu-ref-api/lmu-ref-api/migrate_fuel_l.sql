@@ -1,0 +1,2 @@
+ALTER TABLE refs ADD COLUMN fuel_l REAL;
+ALTER TABLE submissions ADD COLUMN fuel_l REAL;

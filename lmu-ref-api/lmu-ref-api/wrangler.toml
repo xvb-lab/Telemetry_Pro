@@ -1,0 +1,12 @@
+name = "lmu-ref-api"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# D1 — sostituisci database_id con quello creato da:  wrangler d1 create lmu-ref
+[[d1_databases]]
+binding = "DB"
+database_name = "lmu-ref"
+database_id = "b493b1d4-6fe2-4222-9127-e162d77efd49"
+
+# WRITE_TOKEN non va qui: impostalo come secret
+#   wrangler secret put WRITE_TOKEN
